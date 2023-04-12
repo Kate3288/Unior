@@ -1,0 +1,30 @@
+namespace _111;
+class Program
+{
+    static void Main(string[] args)
+    {
+        
+        int вес = 70;
+        float рост = 175.5f;
+        bool владелецАбонемента = false;
+        string имя = "Катя";
+        char группаЗдоровья = 'A';
+        byte возраст = 26;
+        sbyte рейтинг = -15;
+        short количествоПосещений = 20;
+        decimal времяСтометровки = 14.56m;
+        DateTime датаПосещения = DateTime.Now;
+        Console.WriteLine("Имя: " + имя);
+        Console.WriteLine("Вес: " + вес); // Исправлено на Console.WriteLine
+        Console.WriteLine("Рост: " + рост);
+        Console.WriteLine("Возраст: " + возраст);
+        Console.WriteLine("Группа здоровья: " + группаЗдоровья);
+        Console.WriteLine("Индивидуальный рейтинг: " + рейтинг);
+        Console.WriteLine("Время преодоления 100 метров :" +времяСтометровки);
+        Console.WriteLine("Количество посещений в месяц: " + количествоПосещений);
+        Console.WriteLine("Дата последнего посещения: " + датаПосещения);
+        Console.WriteLine("Владелец Абонемента: " + владелецАбонемента);
+        Console.ReadLine();
+
+    }
+}
