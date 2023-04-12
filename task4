@@ -1,0 +1,20 @@
+namespace _111;
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Введите ваше имя");
+        string имя = Console.ReadLine();
+        Console.WriteLine("Сколько вам лет?");
+        string возраст = Console.ReadLine();
+        Console.WriteLine("Как называется компания, где вы работаете?");
+        string местоРаботы = Console.ReadLine();
+        Console.WriteLine("Укажите ваш доход в долларах");
+        string доход = Console.ReadLine();
+
+        Console.WriteLine("Вас зовут " + имя);
+        Console.WriteLine("и Вы работаете в компании " + местоРаботы);
+        Console.WriteLine("и  зарабатываете в месяц долларов" + доход);
+        Console.ReadKey();
+    }
+}
