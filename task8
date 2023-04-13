@@ -1,0 +1,20 @@
+using System;
+
+namespace _111
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите баланс");
+            string балансЗолото = Console.ReadLine();
+            Console.WriteLine("Сколько кристаллов хотите купить?");
+            string покупка = Console.ReadLine();
+            int ценаКристалла = 10;
+            int остатокЗолото = int.Parse(балансЗолото) - ценаКристалла * int.Parse(покупка);
+            Console.WriteLine("Остаток золота: "+ остатокЗолото);
+            Console.WriteLine("Остаток кристаллов: " + покупка);
+            Console.ReadKey();
+        }
+    }
+}
