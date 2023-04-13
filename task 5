@@ -1,0 +1,16 @@
+using System;
+
+namespace _111;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string  фамилия = ("Катя");
+        string имя = ("Поликарпова");
+        Console.WriteLine("Фамилия " + фамилия);
+        Console.WriteLine("Имя " + имя);
+        Console.WriteLine("Фамилия " + имя);
+        Console.WriteLine("Имя " + фамилия);
+        Console.ReadKey();
+    }
+}
