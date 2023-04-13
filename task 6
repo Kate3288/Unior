@@ -1,0 +1,17 @@
+using System;
+
+namespace _111;
+class Program
+{
+    static void Main(string[] args)
+    {
+        int a = 52;
+        int b = 3;
+        int c = a / b;
+        int d = a - b * c;
+        Console.WriteLine("Количество рядов " + c);
+        Console.WriteLine("Остаток картинок " + d);
+        Console.ReadKey();
+
+    }
+}
