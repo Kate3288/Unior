@@ -1,0 +1,21 @@
+using System;
+
+namespace _111
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите количество человек в очереди");
+            string очередь1 = Console.ReadLine();
+            int очередь = int.Parse(очередь1);
+            int минутНаЧеловека = 10;
+            int минутНаОчередь = очередь * минутНаЧеловека;
+            int часы = минутНаОчередь / 60;
+            int мин = минутНаОчередь - часы * 60;
+            Console.WriteLine("Вы должны отстоять в очереди  " +часы+ " часа и "+ мин+ " минут");
+            Console.ReadKey();
+
+        }
+    }
+}
